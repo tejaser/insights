@@ -106,15 +106,15 @@ class Persona extends Component {
                                                 <tbody>
                                                     <tr style={{ borderTop: '0 !important' }}>
                                                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                        <td>Most likely to buy between <b>12PM - 4PM</b>.</td>
+                                                        <td>Most likely to buy between <b>1PM - 4PM</b>.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
-                                                        <td><b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.dekstopPPC}</b> chance of buying from <b>paid</b> campaign.</td>
+                                                        <td><b>3%</b> chance of buying from <b>paid</b> campaign.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-calendar-o" aria-hidden="true"></i></td>
-                                                        <td><b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.weekOfDayBuyingChancesdesk}</b> chance of buying on a <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.dektopWeekOfDay}</b> which is highest among all days of week.</td>
+                                                        <td><b>51.64%</b> chance of buying on a <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.dektopWeekOfDay}</b> which is highest among all days of week.</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -138,11 +138,11 @@ class Persona extends Component {
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
-                                                        <td> <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.mobilePPC}</b> chance of buying from <b>paid</b> campaign.</td>
+                                                        <td> <b>8%</b> chance of buying from <b>paid</b> campaign.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-calendar-o" aria-hidden="true"></i></td>
-                                                        <td><b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.weekOfDayBuyingChancesMob}</b> chance of buying on a <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.mobileWeekOfDay}</b> which is highest among all days of week.</td>
+                                                        <td><b>48.36%</b> chance of buying on a <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.mobileWeekOfDay}</b> which is highest among all days of week.</td>
                                                     </tr>
                                                 </tbody>
                                             </table>

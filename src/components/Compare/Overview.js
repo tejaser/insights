@@ -589,7 +589,7 @@ class Overview extends Component {
                                         <div className="col-md-12">
                                             {/* {console.log(this.props.aggregatedInfo)} */}
                                             <p><i className="fa fa-calendar-minus-o" aria-hidden="true"></i> &nbsp;{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.desktopBuying} chance of buying on a <b style={{ color: 'black' }}>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.dektopWeekOfDay}</b> which is highest of all days of week</p>
-                                            <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b>12PM - 4PM</b></p>
+                                            <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b>8PM - 10PM</b></p>
                                         </div>
                                     </div>
                                 </div>

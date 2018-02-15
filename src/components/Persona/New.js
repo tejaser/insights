@@ -35,7 +35,7 @@ class New extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>6PM - 10PM</b>.</td>
+                        <td>Most likely to buy between <b>12PM - 4PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -61,7 +61,7 @@ class New extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>2PM - 6PM</b>.</td>
+                        <td>Most likely to buy between <b>4PM - 6PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>

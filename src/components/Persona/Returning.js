@@ -35,7 +35,7 @@ class Returning extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>4PM - 8PM</b>.</td>
+                        <td>Most likely to buy between <b>2PM - 4PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>

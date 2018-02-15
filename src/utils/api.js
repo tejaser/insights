@@ -20,6 +20,13 @@ browserLevel: function(id){
   })
 },
 
+location: function(){
+  var URI = window.encodeURI('https://api.myjson.com/bins/178nst');
+  return axios.get(URI)
+  .then(function(response){
+      return response.data;
+  })
+},
 geo: function(){
   var URI = window.encodeURI('https://api.myjson.com/bins/178nst');
   return axios.get(URI)

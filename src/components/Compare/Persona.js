@@ -19,7 +19,7 @@ class Persona extends Component {
                                 <p className="pt-3"><i className="fa fa-shopping-bag" aria-hidden="true"></i> &nbsp; Her bag value <b>amounts to ${!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.avgBagValueDesktop}</b>.</p>
                                 <p className="pt-3"><i className="fa fa-bullseye" aria-hidden="true"></i>&nbsp; She <b>purchases {!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.avgItems} - {!this.props.aggregatedInfo ? <i></i> : this.props.aggregatedInfo.avgItems + 1} items</b> in an order.</p>
                                 {/* <p className="pt-3"><img src={map} alt="map"style={{ width: '20px', height: '20px' }} />&nbsp; She visits the <b>website from {!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.highValueCustomerCity},{!this.props.aggregatedInfo ? <i ></i> : this.props.aggregatedInfo.highValueCustomerCountry}</b>.</p> */}
-                            
+
                                 <p className="pt-3"><img src={map} alt="map"style={{ width: '20px', height: '20px' }} />&nbsp; She visits the <b>website from California,United States</b>.</p>
                             </div>
                             </div>
@@ -35,7 +35,7 @@ class Persona extends Component {
                                                 <tbody>
                                                     <tr style={{ borderTop: '0 !important' }}>
                                                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                        <td>Most likely to buy between <b>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursDesktop} Hour</b>.</td>
+                                                        <td>Most likely to buy between <b>12PM - 4PM</b>.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -63,7 +63,7 @@ class Persona extends Component {
                                                 <tbody>
                                                     <tr style={{ borderTop: '0 !important' }}>
                                                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                        <td>Most likely to buy between <b>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursMobile} Hour</b>.</td>
+                                                        <td>Most likely to buy between <b>2PM - 4PM</b>.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -106,7 +106,7 @@ class Persona extends Component {
                                                 <tbody>
                                                     <tr style={{ borderTop: '0 !important' }}>
                                                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                        <td>Most likely to buy between <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.mostBuyingHoursDesktop} Hour</b>.</td>
+                                                        <td>Most likely to buy between <b>12PM - 4PM</b>.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -134,7 +134,7 @@ class Persona extends Component {
                                                 <tbody>
                                                     <tr style={{ borderTop: '0 !important' }}>
                                                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                                                        <td>Most likely to buy between <b>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.mostBuyingHoursMobile} Hour</b>.</td>
+                                                        <td>Most likely to buy between <b>2PM - 4PM</b>.</td>
                                                     </tr>
                                                     <tr>
                                                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>

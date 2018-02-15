@@ -118,7 +118,7 @@ class NewUsers extends Component {
                   // labelComponent={<VictoryTooltip orientation="right" pointerLength={0} />}
                   labelRadius={50}
                   style={{ labels: { fontSize: 15, fill: "white" } }}
-                //labelComponent={<CustomLabel/>}   
+                //labelComponent={<CustomLabel/>}
                 />
                 <VictoryLabel
                   textAnchor="middle"
@@ -171,7 +171,7 @@ class NewUsers extends Component {
               </div>
             </div>
           </div>
-          
+
           <div className="col-md-4 mt-lg-0 mt-3  pr-2 pl-2 pl-lg-3">
             <div className="col-12 lxr-box-shadow py-3 p-0 h-100">
               <h4 className="lxr-grey pl-3">Channels</h4>
@@ -250,7 +250,7 @@ class NewUsers extends Component {
                 {data.productName}
                 <span className="badge badge-primary badge-pill">{`${Math.round((data.count/prototal)*100)}%`}</span>
                 </li>
-              })} 
+              })}
               </ul>
               </div>
               {/* <VictoryChart domainPadding={{ y: 5 }}
@@ -291,7 +291,7 @@ class NewUsers extends Component {
                 <div className="col-md-4">
                   {/* <p><i className="fa fa-internet-explorer" aria-hidden="true" style={{color:'#02bdf2'}}></i> &nbsp;IE Shares went down by 10% &darr;</p>
           <p><i className="fa fa-desktop" aria-hidden="true"></i> &nbsp;Desktop Shares went up by 25% &uarr;</p> */}
-                  <h4 className="lxr-grey pl-3">Top Browsers</h4> 
+                  <h4 className="lxr-grey pl-3">Top Browsers</h4>
 
 {/* <VictoryChart domainPadding={{ y: 10 }}
 > */}
@@ -321,7 +321,7 @@ class NewUsers extends Component {
                 <div className="col-md-4">
                   {/* {console.log(this.props.aggregatedInfo)} */}
                   <p><i className="fa fa-calendar-minus-o" aria-hidden="true"></i> &nbsp;{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.desktopBuying} chance of buying on a <b style={{ color: 'black' }}>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.dektopWeekOfDay}</b> which is highest of all days of week</p>
-                  <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b style={{ color: 'black' }} >{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursDesktop} Hour</b></p>
+                  <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b>6PM - 8PM</b></p>
                 </div>
               </div>
             </div>

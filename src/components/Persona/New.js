@@ -16,7 +16,7 @@ class New extends Component {
             <b>New Customer</b><br />
             <b>Age 25-35</b><br />
             {/* <p><img src={map} alt="map" /> &nbsp; {!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.highValueCustomerCity},{!this.props.aggregatedInfo ? <i ></i> : this.props.aggregatedInfo.highValueCustomerCountry}</p> */}
-         
+
             <p><img src={map} alt="map" /> &nbsp;California,United States</p>
           </div>
           <div className="col-md-4">
@@ -35,7 +35,7 @@ class New extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursDesktop} Hour</b>.</td>
+                        <td>Most likely to buy between <b>6PM - 10PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -61,7 +61,7 @@ class New extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursMobile} Hour</b>.</td>
+                        <td>Most likely to buy between <b>2PM - 6PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>

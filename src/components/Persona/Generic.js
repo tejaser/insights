@@ -4,13 +4,13 @@ import dollar from '../../imgs/dollar.svg';
 import lady from '../../imgs/lady.svg';
 import map from '../../imgs/map.svg';
 class Generic extends Component {
- 
+
   render() {
     return (
 
-      
+
       <div className="container-fluid">
-       
+
         <div className="row">
           <div className="col-md-5 pt-5">
             <p className=""><img src={dollar} alt="dollar" style={{ width: '20px', height: '20px' }} /> &nbsp; Monthly purchases are above $50.</p>
@@ -23,7 +23,7 @@ class Generic extends Component {
             <b>Age 25-35</b><br />
             {/* <p><img src={map} alt="map" /> &nbsp; {!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.highValueCustomerCity},{!this.props.aggregatedInfo ? <i ></i> : this.props.aggregatedInfo.highValueCustomerCountry}</p> */}
             <p><img src={map} alt="map" /> &nbsp; California,United States </p>
-          
+
           </div>
           <div className="col-md-4">
             <p className="pt-5"><i className="fa fa-shopping-bag" aria-hidden="true"></i> &nbsp; Her bag value <b>amounts</b> to <b>${!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.avgBagValueDesktop}</b>.</p>
@@ -46,7 +46,7 @@ class Generic extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursDesktop} Hour</b>.</td>
+                        <td>Most likely to buy between <b>1PM - 4PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -73,7 +73,7 @@ class Generic extends Component {
                     <tbody>
                       <tr style={{ borderTop: '0 !important' }}>
                         <td className="align-middle"><i className="fa fa-clock-o" aria-hidden="true"></i></td>
-                        <td>Most likely to buy between <b>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursMobile} Hour</b>.</td>
+                        <td>Most likely to buy between <b>2PM - 4PM</b>.</td>
                       </tr>
                       <tr>
                         <td className="align-middle"><i className="fa fa-bullhorn" aria-hidden="true"></i></td>
@@ -92,7 +92,7 @@ class Generic extends Component {
 
         </div>
       </div>
-      
+
     )
   }
 }

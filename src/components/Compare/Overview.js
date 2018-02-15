@@ -34,7 +34,7 @@ class Overview extends Component {
         for (var i = 0; i < result.length; i++) {  //loop through the array
             total += result[i].userCount;  //Do the math!
         }
-        
+
         //current devices data
         var data1 = !this.props.Cdevices ? [{ deviceName: 'Tyler', userCount: 0 }] : this.props.Cdevices;
         //console.log(data)
@@ -409,7 +409,7 @@ class Overview extends Component {
                                         <div className="col-md-12">
                                             {/* {console.log(this.props.aggregatedInfo)} */}
                                             <p><i className="fa fa-calendar-minus-o" aria-hidden="true"></i> &nbsp;{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.desktopBuying} chance of buying on a <b style={{ color: 'black' }}>{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.dektopWeekOfDay}</b> which is highest of all days of week</p>
-                                            <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b style={{ color: 'black' }} >{!this.props.aggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.aggregatedInfo.mostBuyingHoursDesktop} Hour</b></p>
+                                            <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b>2PM - 4PM</b></p>
                                         </div>
                                     </div>
                                 </div>
@@ -589,7 +589,7 @@ class Overview extends Component {
                                         <div className="col-md-12">
                                             {/* {console.log(this.props.aggregatedInfo)} */}
                                             <p><i className="fa fa-calendar-minus-o" aria-hidden="true"></i> &nbsp;{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.desktopBuying} chance of buying on a <b style={{ color: 'black' }}>{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.dektopWeekOfDay}</b> which is highest of all days of week</p>
-                                            <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b style={{ color: 'black' }} >{!this.props.CaggregatedInfo ? <i className="fa fa-spinner fa-pulse fa-1x fa-fw"></i> : this.props.CaggregatedInfo.mostBuyingHoursDesktop} Hour</b></p>
+                                            <p><i className="fa fa-clock-o" aria-hidden="true"></i> &nbsp;Most likely to buy between <b>12PM - 4PM</b></p>
                                         </div>
                                     </div>
                                 </div>

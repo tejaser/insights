@@ -1,8 +1,5 @@
 var axios = require('axios');
-var qs = require('qs');
-var config = {headers: {
-        'content-type': 'application/x-www-form-urlencoded'}
-}
+
 module.exports = {
 
 deviceLevel: function(id){

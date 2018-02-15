@@ -199,7 +199,7 @@ class NewUsers extends Component {
                   data={dow}
                   x="day"
                   y="userCount"
-                  labels={(d) => `# of visits ${Math.round((d.y/dowtotal)*100)}%`}
+                  labels={(d) => `# of visits ${d.y}`}
                 //labelComponent={<VictoryTooltip />}
                 labelComponent={<VictoryTooltip orientation="top" pointerLength={0} />}
                 />

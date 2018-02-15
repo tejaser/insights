@@ -340,7 +340,7 @@ class Overview extends Component {
                                     <VictoryBar
                                         style={{ data: { fill: "#DE893E" } }}
                                         data={dowfin} //dow is day of week data merged above
-                                        labels={(d) => `# of visits ${Math.round((d.y/dowtotal)*100)}%`}
+                                        labels={(d) => `# of visits ${d.y}`}
                                         x="day"
                                         y="userCount"
                                         labelComponent={<VictoryTooltip orientation="top" pointerLength={0} />}
@@ -520,7 +520,7 @@ class Overview extends Component {
                                     <VictoryBar
                                         style={{ data: { fill: "#DE893E" } }}
                                         data={dowfin1} //dow is day of week data merged above
-                                        labels={(d) => `# of visits ${Math.round((d.y/dowtotal)*100)}%`}
+                                        labels={(d) => `# of visits ${d.y}`}
                                         x="day"
                                         y="userCount"
                                         labelComponent={<VictoryTooltip orientation="top" pointerLength={0} />}

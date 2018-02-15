@@ -20,13 +20,6 @@ browserLevel: function(id){
   })
 },
 
-location: function(){
-  var URI = window.encodeURI('http://52.207.62.35:8080/location-based-user-count?id=1320');
-  return axios.get(URI)
-  .then(function(response){
-      return response.data;
-  })
-},
 geo: function(){
   var URI = window.encodeURI('https://api.myjson.com/bins/178nst');
   return axios.get(URI)

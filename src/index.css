@@ -1,0 +1,24 @@
+
+@font-face {
+  font-family: prox-regular;
+  src: url('./fonts/ProximaNova-Regular.woff');
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: prox-regular;
+}
+.lxr-box-shadow{
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  background: #fffdfd;;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  
+}
+.lxr-grey{
+color:#6d6565;
+}
+
